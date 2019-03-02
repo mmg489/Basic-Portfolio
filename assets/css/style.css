@@ -139,3 +139,15 @@ input[type=text], select, textarea {
     color:#777777;
     background: #ffffff;
 }
+#Portfolio {
+    position: absolute;
+    width:960px;
+    height:700px;
+    border:1px solid #cccccc;
+    overflow: auto;
+    clear: both;
+}
+.container2 {
+    position:absolute;
+    background-color: #e207d0;
+    padding: 0px;

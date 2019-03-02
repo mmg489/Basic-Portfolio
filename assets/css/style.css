@@ -57,7 +57,7 @@ nav{
     float: left;
 }
 #about {
-        position: absolute;
+        position: relative;
         left:160px;
         top:100px;
         width:70%;
@@ -132,7 +132,7 @@ input[type=text], select, textarea {
     background: #ffffff;
 }
 #Portfolio {
-    position: relative;
+    position: absolute;
     width:960px;
     height:600px;
     top: 100px;
@@ -142,3 +142,41 @@ input[type=text], select, textarea {
     overflow: auto;
     clear: both;
 }
+    .img{
+        position:relative;
+        float:left;
+        width:50px;
+        height:50px;
+        background-position:50%50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .image{
+        height: 200px;
+        width:  200px;
+        position:absolute;
+        float:left;
+    }
+    .container2{
+        position: relative;
+        text-align: center;
+        color: white;
+        float:left;
+        width: 45%;
+    }
+
+    .porfolio_pics{
+        height: 200px;
+        width: 250px;
+    }
+    .centered {
+        background-color: #4aaaa5;
+        color: #ffffff;
+        width:58%;
+        position: absolute;
+        padding: 10px 1px;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    

@@ -55,10 +55,9 @@ nav{
 }
 #contact{
     float: left;
-    border-right:
 }
 #about {
-        position: relative;
+        position: absolute;
         left:160px;
         top:100px;
         width:70%;
@@ -66,19 +65,12 @@ nav{
         border:1px solid #cccccc;
         overflow: auto;
         clear: both;
-        color: #7777777;
+        color:#777777;
         background: #ffffff;
 }
 
-#hangman {
-    position: fixed;
-    width:23.4%;
-    top:280px;
-    padding: .1px;
-    background-color:#4aaaa5
-}
 footer {
-    position:fixed;
+    position:absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -131,7 +123,7 @@ input[type=text], select, textarea {
     left:230px;
     top:100px;
     width:960px;
-    height:700px;
+    height:600px;
     padding:20px;
     border:1px solid #cccccc;
     overflow: auto;
@@ -140,14 +132,13 @@ input[type=text], select, textarea {
     background: #ffffff;
 }
 #Portfolio {
-    position: absolute;
+    position: relative;
     width:960px;
-    height:700px;
+    height:600px;
+    top: 100px;
+    left: 230px;
     border:1px solid #cccccc;
+    background-color: #ffffff;
     overflow: auto;
     clear: both;
 }
-.container2 {
-    position:absolute;
-    background-color: #e207d0;
-    padding: 0px;
